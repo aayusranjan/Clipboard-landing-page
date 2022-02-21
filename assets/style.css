@@ -150,13 +150,26 @@ a {
 }
 
 @media (max-width: 375px) {
+    body {
+        height: 100vh;
+        background: url(../images/bg-header-mobile.png) center center fixed;
+        background-size: cover;
+    }
     .company__logo {
     display: block;
     margin: 0 auto;
     padding: 2rem;
-}
+    }
+    .img {
+        width: 330px;
+    }
 }
 @media (min-width: 1020px){
+    body {
+        height: 100vh;
+        background: url(../images/bg-header-desktop.png) center center fixed;
+        background-size: cover;
+    }
     .container__title {
     min-width: 100%;
     }
@@ -219,3 +232,5 @@ a {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
