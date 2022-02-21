@@ -1,21 +1,21 @@
-# Frontend Mentor - Clipboard landing page solution
-<h1 align="center">404 Not Found</h1>
+
+<h1 align="center">Clipboard landing page solution.</h1>
 
 <div align="center">
-   Clipboard landing page solution.
+   Frontend Mentor Challange
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://not-found-master-1243c.firebaseapp.com/">
+    <a href="https://github.com/aayusranjan/Clipboard-landing-page">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://aayusranjan.github.io/Clipboard-landing-page/">
+      Live
+    </a>
+    <span> | </span>
+    <a href="https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9">
       Challenge
     </a>
   </h3>
@@ -73,9 +73,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -118,9 +115,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@aayusranjan](https://www.frontendmentor.io/profile/aayusranjan)
+- Twitter - [@aayusranjan](https://www.twitter.com/aayusranjan)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
