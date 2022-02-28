@@ -44,7 +44,7 @@ body {
 }
 
 .img {
-    width: 500px;
+    width: 20rem;
     padding: 2rem;
 }
 
@@ -152,7 +152,7 @@ a {
 @media (max-width: 375px) {
     body {
         height: 100vh;
-        background: url(../images/bg-header-mobile.png) center center fixed;
+        background: url(/images/bg-header-mobile.png) center center fixed;
         background-size: cover;
     }
     .company__logo {
@@ -166,9 +166,10 @@ a {
 }
 @media (min-width: 1020px){
     body {
-        height: 100vh;
-        background: url(../images/bg-header-desktop.png) center center fixed;
+        background: url(/images/bg-header-desktop.png);
+        background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
     }
     .container__title {
     min-width: 100%;
@@ -190,8 +191,15 @@ a {
         padding-bottom: 6rem;
     }
     .container__flex {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    }
+    .container__flex .img {
+        margin-left: -100px;
+    } 
+    .img{
+        width: 50rem;
     }
     .article {
         width: 70%;
